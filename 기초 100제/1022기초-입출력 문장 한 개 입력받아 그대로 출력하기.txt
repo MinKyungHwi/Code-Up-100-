@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+	char data[101];
+	fgets(data,100,stdin);
+	printf("%s", data);
+	return 0;
+}
+
+공백이 포함된 문장을 키보드(stdin)로 입력 받아 출력
+%s 는 문자열로 출력
