@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+	int i =0;
+	char a[21];
+	
+	scanf("%s", &a);
+	for (i =0 ; i<21; i++){
+		if(a[i] == '\0') break;
+		printf("\'%c\'\n",a[i]);
+	}
+	return 0;
+}
