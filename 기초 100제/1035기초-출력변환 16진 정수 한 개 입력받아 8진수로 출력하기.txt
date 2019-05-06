@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a;
+	scanf("%x", &a);
+	printf("%o", a); 
+	return 0;
+}
+
+
+=> ox 코드 작성시 16진수로 인식, // :한 줄 주석으로 인식 , /* */ 여러줄 주석

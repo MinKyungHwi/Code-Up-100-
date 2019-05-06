@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+	unsigned int i;
+	scanf("%u", &i);
+	printf("%u", i);
+	return 0;
+}
+
+=> unsigned int 형 호출 시 %u 사용하기 / unsigned > int 형 순으로 범위가 더 큼

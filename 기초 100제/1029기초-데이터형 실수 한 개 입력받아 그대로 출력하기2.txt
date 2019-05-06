@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+	double i;
+	scanf("%lf", &i);
+	printf("%.11lf", i);
+	return 0;
+}
+
+=> double 변수를 받을 때는 %lf 이용해서 받기 / double > float 범위

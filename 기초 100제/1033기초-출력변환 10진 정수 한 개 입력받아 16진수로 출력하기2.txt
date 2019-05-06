@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a;
+	scanf("%d", &a);
+	printf("%x", a);
+	return 0;
+}
+
+=> %x / %X 대소문자 구분하기  소문자%x, 대문자&X
