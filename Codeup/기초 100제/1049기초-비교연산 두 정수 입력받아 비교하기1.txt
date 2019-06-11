@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	printf("%d", b<a);
+	return 0;
+}
+
+참 거짓을 이용해서 변수를 이용해 데이터 로직을 구성하면 될 듯.

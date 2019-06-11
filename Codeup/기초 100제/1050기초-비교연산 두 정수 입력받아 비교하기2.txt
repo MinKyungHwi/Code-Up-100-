@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	printf("%d", a==b);
+	return 0;
+}
+
+참 것짓의 관계를 잘 이용해서 응용력을 적용해 로직 짜보기

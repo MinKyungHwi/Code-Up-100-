@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	printf("%d", a<<b);
+	return 0;
+}
+
+
+<< 2의 n승으로 계산한다.
