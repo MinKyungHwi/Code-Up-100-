@@ -1,0 +1,31 @@
+====답1
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	printf("%d", !(a||b));
+	return 0;
+}
+
+====답2
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	printf("%d", (a&&!b)||(!a&&b));
+	return 0;
+}
+
+
+*
+a!=b
+a^b
+(a&&!b)||(!a&&b)
+
+답은 3개이지만 각각 다른이유?

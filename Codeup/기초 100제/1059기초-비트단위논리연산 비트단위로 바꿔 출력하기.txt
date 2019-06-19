@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a;
+	scanf("%d", &a);
+	printf("%d", ~a);
+	return 0;
+}
+
+*
+비트연산자
+~, &, |, ^, <<, >>
+오버플로우에 대해 알아두기.

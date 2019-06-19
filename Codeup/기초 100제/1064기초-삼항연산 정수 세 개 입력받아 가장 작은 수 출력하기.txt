@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int a,b,c;
+	scanf("%d %d %d", &a,&b,&c);
+	printf("%d", (a<b ? a:b)<c ? (a<b ? a:b):c );
+	return 0;
+}
+
+
+*
+경우의수 확인해야 함.
+차근차근 하나씩 예를 들면서 풀기
