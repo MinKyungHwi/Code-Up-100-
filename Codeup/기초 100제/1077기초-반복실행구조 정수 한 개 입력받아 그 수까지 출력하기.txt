@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(void) {
+	int x,y=0;
+	scanf("%d",&x);
+		do
+		{
+			printf("%d\n", y);
+			y++;
+		}while(y<=x);
+	return 0;
+}

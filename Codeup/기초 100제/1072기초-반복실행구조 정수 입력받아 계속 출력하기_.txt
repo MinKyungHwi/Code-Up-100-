@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	int count,a;
+	scanf("%d", &count);
+	reload:	
+	
+	scanf("%d",&a);
+	printf("%d\n",a);
+	if(--count!=0) goto reload;
+	
+}

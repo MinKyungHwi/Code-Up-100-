@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(void) {
+	char x;
+	
+	do
+	{
+		scanf("%c", &x);
+		printf("%c", x);
+	}while ( x != 'q');
+	
+		return 0;
+}
+
+
+*for 문으로 할 때 아스키코드 사용? - 해보기

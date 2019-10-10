@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+	char x,y='a';
+	scanf("%c",&x);
+		do
+		{
+			printf("%c ", y);
+			y++;
+		}while(y<=x);
+	return 0;
+}
+
+*while로 못 풀는가....
+
+
+while 문제점 f입력시 fedcba 출력
+int main(void) {
+	char x,y='a';
+	scanf("%c",&x);	
+	
+	while(x<123)
+	{	
+		if(y>=x){
+		printf("%c ",y);		
+		y = y+1;	
+		}
+	}
+}
