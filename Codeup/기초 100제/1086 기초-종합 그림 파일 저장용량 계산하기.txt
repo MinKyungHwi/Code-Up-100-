@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	
+    float h, b, c;
+	float result;
+    scanf("%f %f %f", &h, &b, &c);
+    result = h * b * c;
+    printf("%.2f MB", result/8/1024/1024);
+
+	return 0;
+}

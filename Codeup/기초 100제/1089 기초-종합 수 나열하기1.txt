@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int a,d,n,i;
+
+	scanf("%d %d %d", &a,&d,&n);
+	
+	for(i=1; i<n ; i++){
+		a = a+d;
+	}
+	printf("%d",a);
+	
+	return 0;
+}

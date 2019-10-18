@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int a,b,c;
+	int day;
+	
+	scanf("%d %d %d", &a,&b,&c);
+
+	day=1;
+	while(day%a!=0 || day%b!=0 || day%c!=0) day++;
+	printf("%d", day);
+	
+	return 0;
+}
+
+*a,b,c 사람을 참석,미참석을 0,1로 표현하고 비트연산을 통해 확인하는 방법 
+좀 더 컴퓨터 적인 사고!!

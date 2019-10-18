@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int i,n;
+	int sum=0;
+	scanf("%d",&n);
+	
+	for(i=1; ; i++){
+		sum = sum+i;	
+			if(n<=sum) 
+			break;		
+	}
+	printf("%d",sum);
+	return 0;
+}
